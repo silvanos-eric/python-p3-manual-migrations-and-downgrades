@@ -17,7 +17,7 @@ Base = declarative_base()
 
 
 class Student(Base):
-    __tablename__ = 'scholars'
+    __tablename__ = 'students'
 
     id = Column(Integer(), primary_key=True)
     name = Column(String(), index=True)
